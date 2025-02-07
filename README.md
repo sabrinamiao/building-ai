@@ -26,7 +26,7 @@ The digital art space is rapidly expanding, yet many aspiring artists struggle w
 
 Users interact with the AI through a simple interface where they can select styles, color schemes, and basic shapes. The AI then generates a painting based on these inputs, which users can further refine. This tool is particularly useful in educational settings, therapeutic art sessions, and for professional artists looking for inspiration.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Digital_art.jpg" width="300">
+<img src="[https://upload.wikimedia.org/wikipedia/commons/8/8a/Digital_art.jpg](https://www.designbolts.com/wp-content/uploads/2014/04/Rainbow_Digital-art-Painting-by-sakimichan.jpg)" width="300">
 
 ```
 def generate_art(style, color_scheme, shapes):

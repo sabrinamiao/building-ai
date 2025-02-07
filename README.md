@@ -8,72 +8,56 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+This project explores the creation of an AI-powered tool that assists users in generating digital paintings. By leveraging machine learning models trained on a vast array of artistic styles and techniques, the tool enables both novice and experienced artists to create unique artworks with minimal effort.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The digital art space is rapidly expanding, yet many aspiring artists struggle with the technical skills required to translate their visions into digital formats. This project aims to democratize digital art creation by providing an intuitive AI-driven platform that simplifies the artistic process. My motivation stems from a passion for both technology and art, and a desire to make art creation accessible to everyone, regardless of their skill level.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+
+* Problem 1: High barrier to entry for digital art creation.
+
+* Problem 2: Limited access to diverse artistic styles and techniques.
+
+* Problem 3: Time-consuming process of learning and applying complex digital art software.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Users interact with the AI through a simple interface where they can select styles, color schemes, and basic shapes. The AI then generates a painting based on these inputs, which users can further refine. This tool is particularly useful in educational settings, therapeutic art sessions, and for professional artists looking for inspiration.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Digital_art.jpg" width="300">
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
+def generate_art(style, color_scheme, shapes):
+    # AI model processes the inputs to generate art
+    art_piece = AI_model(style, color_scheme, shapes)
+    return art_piece
 ```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The data for training the AI models comes from publicly available datasets of digital artworks, such as:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Data Source	                              | Description                                                             |
+| -------------------------------------------| ----------------------------------------------------------------------- |
+| ![WikiArt](https://www.wikiart.org/)       | A visual art encyclopedia with images of paintings from various artists.|
+| ![Google Art Project](https://artsandculture.google.com/)   | High-resolution images of artworks from museums around the world.|
+The AI methods involve convolutional neural networks (CNNs) for style transfer and generative adversarial networks (GANs) for creating new artworks.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The project does not address the creation of physical art pieces, focusing solely on digital formats. Ethical considerations include ensuring the AI does not replicate copyrighted styles too closely and respects the originality of human artists.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Future enhancements could include integrating virtual reality for immersive art creation experiences and expanding the AI's learning to include more contemporary and diverse art forms. Collaboration with artists and technologists would be essential for advancing this project.
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Inspiration from the works of DeepArt.io and their style transfer technology.
+
+* Dataset provided by WikiArt under public domain licenses.
+
+* Special thanks to the open-source community for continuous support and resources.

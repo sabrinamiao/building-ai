@@ -41,8 +41,9 @@ The data for training the AI models comes from publicly available datasets of di
 
 | Data Source	                              | Description                                                             |
 | -------------------------------------------| ----------------------------------------------------------------------- |
-| ![WikiArt](https://www.wikiart.org/)       | A visual art encyclopedia with images of paintings from various artists.|
-| ![Google Art Project](https://artsandculture.google.com/)   | High-resolution images of artworks from museums around the world.|
+| [WikiArt](https://www.wikiart.org/)       | A visual art encyclopedia with images of paintings from various artists.|
+| [Google Art Project](https://artsandculture.google.com/)   | High-resolution images of artworks from museums around the world.|
+
 The AI methods involve convolutional neural networks (CNNs) for style transfer and generative adversarial networks (GANs) for creating new artworks.
 
 ## Challenges
